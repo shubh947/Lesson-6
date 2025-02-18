@@ -1,0 +1,27 @@
+<html>
+    <head>
+    <title> Activity 1</title>
+</head>
+<body>
+    <h2> Forms in HTML</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+        <label>Name</label>
+        <input type="text" placeholder="username"><br><br>
+        <label> Password</label>
+        <input type="file" placeholder="Scroll down"><br><br>
+        <label>Choose File</label>
+        <input type="password" placeholder="username"><br><br>
+        <label> Gender</label><br>
+        <input type="radio" name="Gender" value="Male">Male<br>
+        <input type="radio" name="Gender" value="Female">Female<br><br>
+        <label> City</label><br>
+        <input type="checkbox" name="City" value="Mumbai">Mumbai<br>
+        <input type="checkbox" name="City" value="Hyderabad">Hyderabad<br>
+        <input type="checkbox" name="City" value="Bangalore">Bangalore<br><br>
+        </fieldset>
+        <input type="submit" value="Submit Form">
+    </form>
+</body>
+</html>
